@@ -35,7 +35,7 @@ public class JsonConfigAdapter implements ConfigFileAdapter {
     }
 
     @Override
-    public String write(String current, Map<String, Object> data) throws IOException {
+    public String write(String current, Map<String, Object> data) {
         return prettyGson.toJson(data);
     }
 

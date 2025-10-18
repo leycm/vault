@@ -20,7 +20,7 @@ public class TomlConfigAdapter implements ConfigFileAdapter {
     private final TomlWriter writer;
 
      
-    private static final Pattern SECTION_PATTERN = Pattern.compile("^\\[(.*?)\\]\\s*$");
+    private static final Pattern SECTION_PATTERN = Pattern.compile("^\\[(.*?)]\\s*$");
     private static final Pattern KEY_VALUE_PATTERN = Pattern.compile("^([a-zA-Z0-9_-]+)\\s*=\\s*(.*)$");
     private static final Pattern COMMENT_PATTERN = Pattern.compile("^\\s*#(.*)$");
     private static final Pattern INLINE_COMMENT_PATTERN = Pattern.compile("^(.*?)\\s*#(.*)$");
