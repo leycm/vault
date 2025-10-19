@@ -12,7 +12,7 @@ package de.leycm.vault;
 
 import de.leycm.vault.adapter.ConfigFileAdapter;
 import de.leycm.vault.adapter.TypeAdapter;
-import de.leycm.vault.util.Initializable;
+import de.leycm.neck.instance.Initializable;
 import org.jetbrains.annotations.*;
 
 import lombok.NonNull;
