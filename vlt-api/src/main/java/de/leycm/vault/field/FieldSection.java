@@ -13,6 +13,15 @@ package de.leycm.vault.field;
 import de.leycm.vault.Config;
 import java.util.*;
 
+/**
+ * Represents a configuration section that can contain nested configuration values.
+ * Combines functionality of both {@link Config} and {@link Field} for map-based sections.
+ *
+ * @author LeyCM
+ * @since 1.0.2
+ * @see Config
+ * @see Field
+ */
 public interface FieldSection extends
         Config, Field<Map<String, Object>> {
 
